@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/8097ade54d.js"></script>
+
+    
+
+    <link rel="stylesheet" href="hollywood1.css">
+    
+   
+    
+    <title>MOVIES</title> 
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: rgba(0, 0, 0,0.5) !important;">
+      <a class="navbar-brand" href="index.html"><img src="logo.JPG" alt=""></a>
+        <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" ></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto"  style=" padding-top: 4px;">
+            <li class="nav-item ">
+                <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+              <a class="nav-link" href="index.html" style="font-size: 1.1rem; color: #ffffff; font-weight: bolder ; margin-right: 5px; ; ">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="islamic.html"><i class="fa-solid fa-mosque"></i> </a>       
+              <a class="nav-link" href="islamic.html"  style="font-size: 1.1rem; color: #ffffff; font-weight: bolder ; margin-right: 5px">Islamic</a>
+            </li>
+            <li class="nav-item">
+              <a href="games.html"><i class="fa fa-gamepad" aria-hidden="true"></i></a>
+                <a class="nav-link" href="games.html"  style="font-size: 1.1rem; color: #ffffff; font-weight: bolder  ; margin-right: 5px">Games</a>
+              </li>
+              <li class="nav-item" >
+                <a href="videospage.html"><i class="fa-solid fa-circle-play"></i></a>
+                <a class="nav-link" href="videospage.html"  style="font-size: 1.1rem; color: #ffffff; font-weight: bolder ; margin-right: 5px ">Vides</a>
+              </li>
+              <li class="nav-item">
+                <a href="movie.html"><i class="fa-solid fa-clapperboard"></i></a>
+                <a class="nav-link" href="movie.html"  style="font-size: 1.1rem; color: #ffffff; font-weight: bolder ; margin-right: 5px">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a href="music.html"><i class="fa-solid fa-music"></i></a>
+                <a class="nav-link" href="music.html"  style="font-size: 1.1rem; color: #ffffff; font-weight: bolder ; margin-right: 5px">Music</a>
+              </li>
+              <li class="nav-item">
+                <a href="live.html"><i class="fa fa-television" aria-hidden="true"></i></a>
+                <a class="nav-link" href="live.html"  style="font-size: 1.1rem; color: #ffffff; font-weight: bolder ; margin-right: 5px">Live TV</a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="request.html"><i class="fa fa-commenting" aria-hidden="true"></i></a>
+                <a class="nav-link" href="request.html"  style="font-size: 1.1rem; color: #ffffff; font-weight: bolder ; margin-right: 5px" >Request</a>
+              </li> <li class="nav-item " id="searchclick"></a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i>
+                <a class="nav-link" href="#" style="font-size: 1.1rem; color: #ffffff; font-weight: bolder ; margin-right: 5px" >Search</a>
+              </li>
+            
+          </ul>
+        </div>
+
+        
+
+
+      </nav>
+
+      <div class="hide">
+
+      <div class="search" id="searchbox">
+
+        <from action=""  class="searchbar">
+          <input type="text" placeholder="Search" name="q">
+          <button type="submit"><img src="search.png">
+          </form>
+      
+      </div>
+
+    </div>
+
+
+    <div class="heading">
+        <h3>Hollywood Movies: Page # 1</h3>
+        <div class="buttons">
+        <div class="btn-group">
+            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categories
+            </button>
+            <div class="dropdown-menu dropdown-menu-left">
+              <button class="dropdown-item" type="button">Recently Added</button>
+              <div class="dropdown-divider"></div>
+              <button class="dropdown-item" type="button">New Released</button>
+              <div class="dropdown-divider"></div>
+              <button class="dropdown-item" type="button">Most Views</button>
+              <div class="dropdown-divider"></div>
+              <button class="dropdown-item" type="button">Most download</button>
+            </div>
+
+        </div>
+
+            <div class="btn-group">
+          
+            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Years
+            </button>
+            
+            <div class="dropdown-menu dropdown-menu-right">
+              <button class="dropdown-item" type="button">2022</button>
+              <div class="dropdown-divider"></div>
+              <button class="dropdown-item" type="button">2021</button>
+              <div class="dropdown-divider"></div>
+              <button class="dropdown-item" type="button">2020</button>
+              <div class="dropdown-divider"></div>
+              <button class="dropdown-item" type="button">2019</button>
+              <div class="dropdown-divider"></div>
+              <button class="dropdown-item" type="button">2018</button>
+              <div class="dropdown-divider"></div>
+              <button class="dropdown-item" type="button">2017</button>
+              <div class="dropdown-divider"></div>
+              <button class="dropdown-item" type="button">2016</button>
+              <div class="dropdown-divider"></div>
+              <button class="dropdown-item" type="button">2015</button>
+            </div>
+          </div>  
+        </div>
+      </div>
+        
+          
+          <div class="boxs">
+            <a href="#"><img src="holy30.jpg" alt=""></a>
+          
+          <a href=""><div id="overlay">
+            <i class="fa-solid fa-play"></i>
+           
+          </div>
+        </a>
+          </div>
+  
+         <div class="boxs">
+            <a href="#"><img src="holy28.jpg" alt=""></a>
+          <a href=""></a><div id="overlay">
+            <i class="fa-solid fa-play"></i>
+          </div>
+        </a>
+        </div>
+          <div class="boxs">
+            <a href="#"><img src="holy27.jpg" alt=""></a>
+          
+          <a href=""><div id="overlay">
+            <i class="fa-solid fa-play"></i>
+          </div>
+        </a>
+        </div>
+          <div class="boxs"><a href="#"><img src="holy26.jpg" alt=""></a>
+          <a href=""><div id="overlay">
+            <i class="fa-solid fa-play"></i>
+          </div>
+        </a>
+        </div>
+          <div class="boxs">
+            <a href="#"><img src="holy25.jpg" alt=""></a>
+          <a href=""><div id="overlay">
+            <i class="fa-solid fa-play"></i>
+          </div>
+        </a>
+        </div>
+          <div class="boxs"><a href="#"><img src="holy24.jpg" alt=""></a>
+          <a href=""></a><div id="overlay">
+            <i class="fa-solid fa-play"></i>
+          </div>
+        </a>
+        </div>
+          <div class="boxs"><a href="#"><img src="holy23.jpg" alt=""></a>
+          <a href=""><div id="overlay">
+            <i class="fa-solid fa-play"></i>
+          </div>
+        </a>
+        </div>
+          <div class="boxs"><a href="#"><img src="holy29.jpg" alt=""></a>
+          <a href=""><div id="overlay">
+            <i class="fa-solid fa-play"></i>
+          </div> 
+        </a>
+        </div>
+  
+        <div class="boxs"><a href="#"><img src="holy22.jpg" alt=""></a>
+          <a href=""><div id="overlay">
+            <i class="fa-solid fa-play"></i>
+          </div>
+        </a>
+        </div>
+          <div class="boxs"><a href="#"><img src="holy21.jpg" alt=""></a>
+          <a href=""><div id="overlay">
+            <i class="fa-solid fa-play"></i>
+          </div> 
+        </a>
+        </div>
+        <div class="boxs">
+          <a href="#"><img src="holy20.jpg" alt=""></a>
+        
+        <a href=""><div id="overlay">
+          <i class="fa-solid fa-play"></i>
+         
+        </div>
+      </a>
+        </div>
+
+       <div class="boxs">
+          <a href="#"><img src="holy2.jpg" alt=""></a>
+       
+        <a href=""></a><div id="overlay">
+          <i class="fa-solid fa-play"></i>
+        </div>
+      </a>
+      </div>
+        <div class="boxs">
+          <a href="#"><img src="holy19.jpg" alt=""></a>
+        
+        <a href=""><div id="overlay">
+          <i class="fa-solid fa-play"></i>
+        </div>
+      </a>
+      </div>
+        <div class="boxs"><a href="#"><img src="holy17.jpg" alt=""></a>
+        <a href=""><div id="overlay">
+          <i class="fa-solid fa-play"></i>
+        </div>
+      </a>
+      </div>
+        <div class="boxs">
+          <a href="#"><img src="holy16.jpg" alt=""></a>
+        <a href=""><div id="overlay">
+          <i class="fa-solid fa-play"></i>
+        </div>
+      </a>
+      </div>
+        <div class="boxs"><a href="#"><img src="holy15.jpg" alt=""></a>
+        <a href=""></a><div id="overlay">
+          <i class="fa-solid fa-play"></i>
+        </div>
+      </a>
+      </div>
+        <div class="boxs"><a href="#"><img src="holy14.jpg" alt=""></a>
+        <a href=""><div id="overlay">
+          <i class="fa-solid fa-play"></i>
+        </div>
+      </a>
+      </div>
+        <div class="boxs"><a href="#"><img src="holy13.jpg" alt=""></a>
+        <a href=""><div id="overlay">
+          <i class="fa-solid fa-play"></i>
+        </div> 
+      </a>
+      </div>
+
+      <div class="boxs"><a href="#"><img src="holy12.jpg" alt=""></a>
+        <a href=""><div id="overlay">
+          <i class="fa-solid fa-play"></i>
+        </div>
+      </a>
+      </div>
+        <div class="boxs"><a href="#"><img src="holy11.jpg" alt=""></a>
+        <a href=""><div id="overlay">
+          <i class="fa-solid fa-play"></i>
+        </div> 
+      </a>
+      </div>
+      <div class="boxs">
+        <a href="#"><img src="holy10.jpg" alt=""></a>
+      
+      <a href=""><div id="overlay">
+        <i class="fa-solid fa-play"></i>
+       
+      </div>
+    </a>
+      </div>
+
+     <div class="boxs">
+        <a href="#"><img src="holy1.jpg" alt=""></a>
+      <a href=""></a><div id="overlay">
+        <i class="fa-solid fa-play"></i>
+      </div>
+    </a>
+    </div>
+      <div class="boxs">
+        <a href="#"><img src="holy9.jpg" alt=""></a>
+      
+      <a href=""><div id="overlay">
+        <i class="fa-solid fa-play"></i>
+      </div>
+    </a>
+    </div>
+      <div class="boxs"><a href="#"><img src="holy8.jpg" alt=""></a>
+      <a href=""><div id="overlay">
+        <i class="fa-solid fa-play"></i>
+      </div>
+    </a>
+    </div>
+      <div class="boxs">
+        <a href="#"><img src="holy7.jpg" alt=""></a>
+      <a href=""><div id="overlay">
+        <i class="fa-solid fa-play"></i>
+      </div>
+    </a>
+    </div>
+      <div class="boxs"><a href="#"><img src="holy6.jpg" alt=""></a>
+      <a href=""></a><div id="overlay">
+        <i class="fa-solid fa-play"></i>
+      </div>
+    </a>
+    </div>
+      <div class="boxs"><a href="#"><img src="holy5.jpg" alt=""></a>
+      <a href=""><div id="overlay">
+        <i class="fa-solid fa-play"></i>
+      </div>
+    </a>
+    </div>
+      <div class="boxs"><a href="#"><img src="holy4.jpg" alt=""></a>
+      <a href=""><div id="overlay">
+        <i class="fa-solid fa-play"></i>
+      </div> 
+    </a>
+    </div>
+
+    <div class="boxs"><a href="#"><img src="holy3.jpg" alt=""></a>
+      <a href=""><div id="overlay">
+        <i class="fa-solid fa-play"></i>
+      </div>
+    </a>
+    </div>
+      <div class="boxs"><a href="#"><img src="holy2.jpg" alt=""></a>
+      <a href=""><div id="overlay">
+        <i class="fa-solid fa-play"></i>
+      </div> 
+    </a>
+    </div>
+
+
+
+
+
+
+
+    <nav aria-label="Page navigation example" style="margin-top: 30px;">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link " href="#" tabindex="-1">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link active1" href="hollywood1.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="hollywood2.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="hollywood3.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item"><a class="page-link" href="#">5</a></li>
+        <li class="page-item"><a class="page-link" href="#">6</a></li>
+        <li class="page-item"><a class="page-link" href="#">7</a></li>
+        <li class="page-item"><a class="page-link" href="#">8</a></li>
+        <li class="page-item">
+          <a class="page-link" href="hollywood2.html">Next</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="socialmedia">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook-messenger"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+
+    <div class="bottombar">
+      
+    
+    <p>Copyrights 2016-2022 Ceniflix All Rights Reserved.</p>
+
+  </div>
+
+
+    
+
+
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+<script src="cineflix.js"></script>
+
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

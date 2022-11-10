@@ -1,0 +1,766 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+     background-color: rgb(0, 0, 0);
+     font-family: Lato,Lato-fallback,Arial,sans-serif;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     box-sizing: border-box;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    
+    color: white;
+
+   
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.fa-solid, .fa {
+    color: white;
+    font-size: 2.2rem;
+}
+
+
+
+/* /* .fa-home{
+    margin-left: px;
+} */
+
+/* .fa-mosque{
+    margin-left: 14px;
+}
+.fa-download{
+    margin-left: 31px;
+}
+
+.fa-circle-play{
+    margin-left: 10px;
+}
+.fa-clapperboard{
+    margin-left: 16px;
+}
+.fa-music{
+    margin-left: 12px;
+}
+.fa-television{
+    margin-left: 14px;
+}
+
+.fa-image{
+    margin-left: 34px;
+}
+
+.fa-commenting{
+    margin-left: 22px;
+}
+.fa-magnifying-glass{
+    margin-left: 16px;
+}
+.nav-item{
+  margin-left: 10px;
+  padding-top: 10px;
+}  */
+
+
+
+.nav-item:hover{
+ 
+  border-radius: 9px;
+   background-color: #f9ba46;
+   
+   
+
+   
+   
+
+}
+
+.active{
+
+    border-radius: 9px;
+    background-color: #f9ba46;
+    
+
+}
+
+.navbar-brand img{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100% !important;
+    height: 100px !important;
+    margin-right: 7rem;
+    margin-left: 1rem;
+
+}
+
+.nav-item{
+    padding-top: 20px;
+}
+
+.navbar-toggler{
+ 
+    background-color: rgb(249, 186, 70);
+}
+
+.collapse{
+    margin-left: auto;
+   text-align: center;
+   max-width: 100%;
+}
+
+.hide{
+    display: none;
+}
+
+
+.navbar-brand img{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100% !important;
+    height: 100px !important;
+    margin-right: 7rem;
+    margin-left: 1rem;
+
+}
+
+.search{
+
+    
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+     
+ }
+ 
+ 
+ .searchbar{
+      
+     width: 70%;
+      background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+      border-radius: 60px;
+      padding: 10px 20px;
+      backdrop-filter: blur(2px) saturate(180%);
+      border: 2px solid #f9ba46;
+      
+      display: flex;
+      align-items: center;
+      
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ .searchbar input{
+     background: transparent;
+     flex: 1;
+     border: 0;
+     outline: none;
+     padding: 15px 0px;
+     font-size: 20px;
+     color: #f9ba46;
+     font-weight: bold;
+     overflow: hidden;
+     
+ }
+ 
+ ::placeholder{
+     color:#f9ba46;
+ 
+ }
+ .searchbar button img{
+     width:  25px;
+ 
+ }
+ 
+  .searchbar button{
+     border: 0;
+     border-radius: 50%;
+     width: 50px;
+     height: 50px; 
+     background: #f9ba46;
+     overflow: hidden;
+   
+ 
+ } 
+
+
+
+ .heading h3{
+    color: white;
+    padding-left: 30px;
+   padding-top: 40px;
+   font-weight: bolder;
+   display: flex;
+   justify-content: space-between;
+   font-size: 1.5rem;
+
+}
+
+ .fa-angle-right{
+    font-size: 1.2rem;
+    font-weight: bold;
+margin-right: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 5px 10px 5px 10px;
+   overflow: hidden;
+   
+ }
+
+ 
+
+ .fa-angle-right:hover{
+    border: 3px solid #f9ba46;
+    cursor: pointer;
+    color: #f9ba46;
+ }
+
+.slider-wrap {
+    position: relative;
+     width: 100%;
+     height: 360px;
+     border: 1px solid rgb(0, 0, 0);
+     cursor: grab;
+   }
+   
+   .slider , .slider1 ,.slider2 , .slider3 {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     overflow: scroll;
+   }
+   
+   .slider-inner , .slider-inner1 , .slider-inner2 , .slider-inner3 {
+     position: absolute;
+     display: flex;
+     justify-content: space-around;
+     top: 0;
+     left: 0;
+     width: 2850px;
+     height: 100%;
+     display: flex;
+   }
+   
+   .item {
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 250px;
+     height: 98%;
+     top: 1%;
+     background-color: rgba(54, 54, 54, 0.3);
+     
+     box-shadow: 0 0 25px 7px rgba(58, 58, 58,0.5);
+     
+   }
+   
+   .progress-bar , .progressbar1 , .progress-bar2 , .progress-bar3 {
+     position: absolute;
+     bottom: -20px;
+     left: 0;
+     height: 4px;
+     width: 100%;
+    
+     border-radius: 10px;background-color: #f9ba46;
+     overflow: hidden;
+ 
+   }
+   
+   .prog-bar-inner , .prog-bar-inner1 , .prog-bar-inner2 ,.prog-bar-inner3 {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 0%;
+     height: 100%;
+     background-color: #f9ba46;
+     
+   }
+   
+   /* Hide scrollbar for Chrome, Safari and Opera */
+   .slider::-webkit-scrollbar {
+     display: none;
+   }
+
+   .slider1::-webkit-scrollbar{
+    display: none;
+  }
+   
+  .slider2::-webkit-scrollbar{
+    display: none;
+  }
+
+  .slider3::-webkit-scrollbar{
+    display: none;
+  }
+   /* Hide scrollbar for IE, Edge and Firefox */
+   .slider{
+     -ms-overflow-style: none; /* IE and Edge */
+     scrollbar-width: none; /* Firefox */
+   }
+
+
+
+   .slider1{
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .slider2{
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+
+  .slider3{
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+
+   .boxs{
+   
+    position: relative;
+    width: 100%;
+    height: 350px;
+    display: inline-block;
+    justify-content: center;
+    box-shadow: 0 0 11px 7px rgba(58, 58, 58,0.5);
+
+    
+   
+    
+    
+
+}
+
+.boxs img{
+
+    display: block;
+    width: 100%;
+    height: 350px;
+}
+
+
+
+
+#overlay{
+    position:absolute;
+    
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(0.5px) saturate(160%);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    color: white;
+    transition: 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.boxs:hover #overlay{
+    height: 100%;
+
+}
+
+
+
+#overlay  .fa-play{
+    font-size: 3.5rem;
+    border-radius: 50%;
+    border: 4.5px solid #f9ba46 ;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #f9ba46;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(1px) saturate(160%);
+    
+    
+}
+
+
+
+.socialmedia{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin-top: 60px;
+    background: linear-gradient(to left,rgb(46, 46, 46),black);
+  
+    padding-top: 10px;
+}
+
+.socialmedia .fa-brands{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #f9ba46;
+   text-align: center;
+    line-height: 40px;
+    font-size: 22px;
+        color: #f9ba46;
+      background: black;
+        cursor: pointer;
+        margin-right: 15px;
+        padding-top: 4px;
+
+}
+
+.bottombar{
+    width: 100%;
+    height: 40px;
+    background-color: #f9ba46;
+   
+}
+
+.bottombar p{
+    background: linear-gradient(to right,rgb(46, 46, 46),black);
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    padding-top: 6px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1286px){
+   
+    /* --------banner resposive  start------------------------------------------ */
+     
+      html{
+          font-size: 95%;
+      }
+  
+  
+   
+  .searchbar button{
+      border: 0;
+      border-radius: 50;
+      width: 50px;
+      height: 50px; 
+     
+  } 
+  
+  .searchbar button img{
+      width:  25px;
+  
+  }
+  
+  
+  .searchbar input{
+      padding: 15px 0px;
+  }
+
+  .heading h3{
+    color: white;
+    padding-left: 30px;
+   padding-top: 30px;
+   
+   
+  
+  
+ 
+      
+  }
+
+}
+  
+     
+       
+   
+  
+  
+  
+  @media (max-width:1170px){
+  
+         /* --------banner resposive  start------------------------------------------ */
+      html{
+          font-size: 90%;
+      }
+  
+      .banner{
+          width: 100%;
+          height: 40rem;
+  }
+  
+  .searchbar button{
+      border: 0;
+      border-radius: 50;
+      width: 50px;
+      height: 50px; 
+     
+  } 
+  
+  .searchbar button img{
+      width:  25px;
+  
+  }
+  
+  
+  .searchbar input{
+      padding: 15px 0px;
+  }
+  
+
+  .heading h3{
+    color: white;
+    padding-left: 30px;
+   padding-top: 30px;
+   
+  
+  
+  
+  
+   }
+
+   .navbar-brand img{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100% !important;
+    height: 100px !important;
+    margin-right: 2rem;
+    margin-left: 0rem;
+
+}
+}
+  
+  
+  
+  @media (max-width:900px){
+  
+       /* --------banner  resposive  start------------------------------------------ */
+  
+      html{
+          font-size: 80%;
+      }
+  
+      .banner{
+          width: 100%;
+          height: 32rem;
+  }
+  
+  .searchbar button{
+      border: 0;
+      border-radius: 50;
+      width: 50px;
+      height: 50px; 
+      
+  } 
+  
+  .searchbar button img{
+      width:  24px;
+  
+  }
+  
+  
+  .searchbar input{
+      padding: 15px 0px;
+  }
+
+
+  .heading h3{
+    color: white;
+    padding-left: 30px;
+   padding-top: 30px
+  }
+  
+  
+  .navbar-brand img{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 96% !important;
+    height: 100px !important;
+    margin-right: 2rem;
+    margin-left: 0rem;
+
+}
+  
+      
+  }
+  
+  @media (max-width:768px){
+  
+       /* --------banner  resposive  start------------------------------------------ */
+  
+  
+      html{
+          font-size: 75%;
+      }
+  
+  
+  .searchbar button{
+      border: 0;
+      border-radius: 50;
+      width: 45px;
+      height: 45px; 
+     
+  } 
+  
+  .searchbar button img{
+      width:  22px;
+  
+  }
+  
+  
+  .searchbar input{
+      padding: 15px 0px;
+  }
+
+
+  .heading h3{
+    color: white;
+    padding-left: 30px;
+   padding-top: 30px
+  }
+  
+  
+  
+ 
+  }
+  @media (max-width:500px){
+  
+       /* --------banner  resposive  start------------------------------------------ */
+  
+  
+      html{
+          font-size: 60%;
+      }
+    
+  
+  .searchbar button{
+      border: 0;
+      border-radius: 50;
+      width: 45px;
+      height: 45px; 
+     
+  } 
+  
+  .searchbar button img{
+      width:  22px;
+  
+  }
+  
+  
+  .searchbar input{
+      padding: 15px 0px;
+  }
+  
+  .heading h3{
+    color: white;
+    padding-left: 30px;
+   padding-top: 30px
+  }
+  
+
+  .navbar-brand img{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 96% !important;
+    height: 100px !important;
+    margin-right: 2rem;
+    margin-left: 0rem;
+
+}
+  
+  
+  }
+  
+  @media (max-width:380px){
+      /* --------banner  resposive  start------------------------------------------ */
+  
+     
+      html{
+          font-size: 60%;
+      }
+  
+     
+  
+  .searchbar button{
+      border: 0;
+      border-radius: 50;
+      width: 40px;
+      height: 40px; 
+     
+  } 
+  
+  .searchbar button img{
+      width:  20px;
+  
+  }
+  
+  
+  .searchbar input{
+      padding: 11px 0px;
+  }
+  
+
+
+  .heading h3{
+    color: white;
+    padding-left: 30px;
+   padding-top: 30px
+  }
+  
+  
+  .navbar-brand img{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 96% !important;
+    height: 100px !important;
+    margin-right: 2rem;
+    margin-left: 0rem;
+
+}
+  
+  
+  }
